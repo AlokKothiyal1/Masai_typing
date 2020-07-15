@@ -9,7 +9,7 @@ function color_change()
     var speed=document.getElementById('speedometer')
     var racer=document.getElementById('racer')
     speed.style.backgroundColor=create_color(255)
-    racer.style.backgroundColor=create_color(255)
+    racer.style.backgroundColor=speed.style.backgroundColor
 }
 
 function random(num)
