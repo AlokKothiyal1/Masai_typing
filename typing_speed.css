@@ -1,0 +1,46 @@
+body{
+    background-color:#2d3339;
+    color: white;
+}
+h1{
+    background-color: #576268;
+}
+.correct{
+    color: #69F0AE;
+}
+.incorrect{
+    color:#FF1744;
+    text-decoration: underline;
+}
+#inner_container{
+    display:none;
+}
+#user_time{
+    width: 50%;
+    height: 50px;
+    border-radius: 2px;
+    padding-left: 1%;
+    border: none;
+}
+#btn_go{
+    width: 45%;
+}
+#paragraph{
+    background-color: #E0F7FA;
+    color: black;
+    border-radius: 10px;
+}
+textarea{
+    width: 60%;
+    height: 200px;
+    border-radius: 10px;
+    outline: none;
+}
+
+#timer{
+    color: #FFEB3B;
+}
+#results{
+    display: none;
+    
+}
