@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="typing_speed.css">
+
+    <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all"
+        rel="stylesheet">
+
+    <title>Typing Speed!</title>
+
+</head>
+
+<body>
+    <div id="container" class="container-fluid text-center">
+        <h1 class="pb-4 my-4 display-3">Typing Speed & Accuracy.</h1>
+        <!--<img class="" src="https://image.flaticon.com/icons/svg/880/880910.svg" width="5%" alt="flash">
+        -->
+        <div id="timing">
+            <input class="m-2" type="number" id="user_time" placeholder="Enter Time in seconds">
+            <br>
+            <input class="m-2 btn btn-success btn-lg" type="button" id="btn_go" value="Start">
+        </div>
+
+        <div id="inner_container">
+            <div id="timer_cont">
+                <i class="fas fa-clock"></i>
+                <div id="timer" class="h1"></div>
+            </div>
+            <div id="paragraph" class="m-5 p-3 display-4"></div>
+            <textarea id="input_area" class="m-5 p-3" autofocus></textarea>
+        </div>
+    </div>
+
+    <div id="results" class="text-center container">
+
+        <h1 class="p-4 m-4">Results</h1>
+
+        <div class="card text-white bg-primary m-3 float-left" style="width: 30%;">
+            <div class="card-header h3">Accuracy</div>
+            <div class="card-body">
+                <h5 class="card-title h1" id="accuracy">Primary card title</h5>
+            </div>
+        </div>
+
+        <div class="card text-white bg-warning m-3 float-left" style="width: 30%;">
+            <div class="card-header h3">Characters/ Minute</div>
+            <div class="card-body">
+                <h5 class="card-title h1" id="char">Secondary card title</h5>
+            </div>
+        </div>
+
+        <div class="card text-white bg-success m-3 float-left" style="width: 30%;">
+            <div class="card-header h3">Words/ Minute</div>
+            <div class="card-body">
+                <h5 class="card-title h1" id="word">Success card title</h5>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <br>
+        <button class="btn btn-danger btn-lg mx-3" id="rego" href="typing_speed.html">Try Again</button>
+    </div>
+    <script src="typing_speed.js"></script>
+</body>
+
+</html>
