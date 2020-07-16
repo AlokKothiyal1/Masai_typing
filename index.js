@@ -1,23 +1,23 @@
-window.addEventListener("load",function(){
+// window.addEventListener("load",function(){
    
-    setInterval(color_change,1000)
+//     setInterval(color_change,1000)
 
-})
+// })
 
-function color_change()
-{
-    var speed=document.getElementById('speedometer')
-    var racer=document.getElementById('racer')
-    speed.style.backgroundColor=create_color(255)
-    racer.style.backgroundColor=speed.style.backgroundColor
-}
+// function color_change()
+// {
+//     var speed=document.getElementById('speedometer')
+//     var racer=document.getElementById('racer')
+//     speed.style.backgroundColor=create_color(255)
+//     racer.style.backgroundColor=speed.style.backgroundColor
+// }
 
-function random(num)
-{
-    return Math.floor(Math.random()*num)
-}
+// function random(num)
+// {
+//     return Math.floor(Math.random()*num)
+// }
 
-function create_color(num)
-{
-    return `rgba(${random(255)},${random(255)},${random(255)},${random(255)})`
-}
+// function create_color(num)
+// {
+//     return `rgba(${random(255)},${random(255)},${random(255)},${random(255)})`
+// }
