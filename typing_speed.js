@@ -80,7 +80,7 @@ input_area.addEventListener('input',()=>{
 })
 
 function getRandomQuote() {
-    return fetch('http://api.quotable.io/random')
+    return fetch('https://api.quotable.io/random')
         .then(response => response.json())
         .then(data => data.content)
 }
